@@ -26,7 +26,7 @@ pipeline {
 
         stage('Run') {
             steps {
-                sh 'cd /var/lib/jenkins/workspace/full-cicd-go && go-webapp-sample &'
+                sh 'cd /var/lib/jenkins/workspace/jk-jobs&& go-webapp-sample &'
             }
         }
     }
