@@ -12,14 +12,14 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                git 'https://github.com/databinaries001/ci-cd-demo.git'
+                git 'https://github.com/radhikawaghmare2006-lgtm/ci-cd-demo.git'
                 sh 'go test ./...'
             }
         }
 
         stage('Build') {
             steps {
-                git 'https://github.com/databinaries001/ci-cd-demo.git'
+                git 'https://github.com/radhikawaghmare2006-lgtm/ci-cd-demo.git'
                 sh 'go build .'
             }
         }
