@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        go 'gotest'
+        go 'test-jenkin'
     }
 
     environment {
