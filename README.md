@@ -5,6 +5,4 @@
 ## Preface
 This repository is the sample of web application using golang.
 
-first commit
-#second commit
-third commit
+1st commit
